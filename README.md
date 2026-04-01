@@ -4,9 +4,9 @@ This repository contains scripts for generating calibration patterns, performing
 
 ---
 
-## 📂 Scripts Overview
+##  Scripts Overview
 
-### 🧩 Calibration Utilities
+###  Calibration Utilities
 
 **`generate_mask.py`**  
 Generates chessboard-pattern masks for all camera views:
@@ -19,7 +19,7 @@ These masks are used for calibration and alignment.
 
 ---
 
-### 🎯 Extrinsic Calibration
+###  Extrinsic Calibration
 
 **`calibrate_bev_zed_xone.py`**  
 Performs extrinsic calibration for **4 ZED cameras** using the four corners of a chessboard pattern.  
@@ -32,7 +32,7 @@ Handles extrinsic calibration for a mixed setup:
 
 ---
 
-### 🛰️ Bird’s-Eye View (BEV)
+###  Bird’s-Eye View (BEV)
 
 **`result_remap.py`**  
 - Combines inputs from all four cameras  
@@ -40,14 +40,14 @@ Handles extrinsic calibration for a mixed setup:
 
 ---
 
-### 🌐 Streaming
+###  Streaming
 
 **`web_rtc_stream.py`**  
 Streams the generated BEV output over **WebRTC**, enabling real-time remote viewing.
 
 ---
 
-### 🧪 Experimental / Test Scripts
+###  Experimental / Test Scripts
 
 **`combined.py`**  
 Test script for combining:
